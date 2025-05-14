@@ -81,3 +81,38 @@ header{
     margin-bottom: 15px;
     font-size: 1em;
 }
+.over-ons{
+    padding: 50px 20px;
+    background-color: #f2f2f2;
+}
+.overons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.overons-tekst{
+    flex: 1;
+    min-width: 280px;
+}
+.overons-tekst h2{
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #2c3e50;;
+}
+.overons-tekst p{
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+.overons-afbeelding{
+    flex: 1;
+    min-width: 280px;
+}
+.overons-afbeelding img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
