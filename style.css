@@ -47,3 +47,37 @@ header{
     border-radius: 10px;
     margin-top: 20px;
 }
+.aanbod{
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+.aanbod h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+.aanbod-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* ruimte tussen de cards */
+    flex-wrap: wrap; /* zorgt ervoor dat het responsief is */
+}
+.aanbod-item{
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    width: 280px;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.aanbod-item:hover{
+    transform: translateY(-5px); /* lichte hover effect */
+}
+.aanbod-item h3{
+    color: #27ae60;
+    margin-bottom: 10px;
+}
+.aanbod-item p{
+    margin-bottom: 15px;
+    font-size: 1em;
+}
