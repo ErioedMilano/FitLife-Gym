@@ -30,16 +30,12 @@ header{
 }
 .btn {
     display: inline-block;
-    background-color: #27ae60;
     color: white;
     padding: 12px 25px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
     transition: background-color 0.3s ease;
-}
-.btn:hover {
-    background-color: #219150;
 }
 .banner img {
     max-width: 100%;
@@ -74,7 +70,7 @@ header{
     transform: translateY(-5px); /* lichte hover effect */
 }
 .aanbod-item h3{
-    color: #27ae60;
+    color: #142171;
     margin-bottom: 10px;
 }
 .aanbod-item p{
@@ -115,4 +111,92 @@ header{
     width: 100%;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.footer{
+    background-color: #222;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    flex-wrap: wrap;
+}
+.footer-box{
+    flex: 1;
+    min-width: 200px;
+}
+.footer-box h3,
+.footer-box h4{
+    margin-bottom: 15px;
+    color: #fff;
+}
+.footer-box p,
+.footer-box a{
+    color: #ccc;
+    text-decoration: none;
+}
+.footer-box a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.footer-box ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-bottom{
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    color: #aaa;
+}
+button, .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+button, .btn {
+    background: linear-gradient(135deg, #020024, #2575fc 100%);
+    color: white;
+}
+button:hover, .btn:hover {
+    background: linear-gradient(135deg, #2575fc 0%, #020024 100%);
+    transform: translateY(-2px);
+}
+button:focus, .btn:focus {
+    outline: 2px solid #2575fc;
+    outline-offset: 2px;
+}
+.footer-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-box li {
+    margin-bottom: 10px;
+}
+
+.footer-box a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-box a:hover {
+    color: #fff;
 }
